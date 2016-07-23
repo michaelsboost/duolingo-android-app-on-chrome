@@ -1,0 +1,59 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "__MSG_extName__",
+  "default_locale": "en",
+  "manifest_version": 2,
+  "minimum_chrome_version": "37",
+  "version": "0.130",
+  "offline_enabled": true,
+  "app": {
+    "background": {
+      "page": "app_main.html"
+    }
+  },
+  "icons": {
+    "16": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": [
+    "gcm",
+    {"socket": ["tcp-connect", "tcp-listen", "udp-bind", "udp-send-to", "resolve-host"]},
+    "unlimitedStorage",
+    "notifications",
+    "clipboardRead",
+    {"fileSystem": ["write"]},
+    "https://clients2.google.com/",
+    "clipboardWrite",
+    "identity.email",
+    "alarms",
+    "storage",
+    "identity",
+    "audioCapture"]
+,
+  "requirements": {
+    "3D": {
+      "features": ["webgl"]
+    }
+  },
+  "import": [
+    { "id": "mfaihdlpglflfgpfjcifdjdjcckigekc" }
+  ],
+  
+  "oauth2": {"scopes": [], "client_id": "450298686065-73nnb9p876gf64d9ve4f6hmbrlqunrjp.apps.googleusercontent.com"},
+  
+  "arc_metadata": {
+    "apkList": [
+      "Duo.re.go.no.2.7.2.apk"
+    ],
+    "enableExternalDirectory": false,
+    "formFactor": "tablet",
+    "name": "Duolingo",
+    "orientation": "landscape",
+    "packageName": "com.duolingo",
+    "usePlayServices": [
+      "gcm",
+      "plus"
+    ]
+  }
+}
