@@ -13,3 +13,5 @@ If you're a Chrome OS user you will also need [ARC Runtime for Chrome](https://c
 Again you can use [Twerk](https://chrome.google.com/webstore/detail/twerk/jhdnjmjhmfihbfjdgmnappnoaehnhiaf) to package your Android app for Chrome. 
 
 However you will need [ARChon Runtime for Chrome](https://archon-runtime.github.io/) installed to run Android Apps in Chrome on OS X, Linux and Windows!
+
+[![ko-fi](https://az743702.vo.msecnd.net/cdn/kofi2.png?v=0)](https://ko-fi.com/michaelsboost)
